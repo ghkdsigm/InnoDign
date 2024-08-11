@@ -1,5 +1,5 @@
 <template>
-    <div class="w-1/4 sm:w-1/1 md:w-1/3 xl:w-1/4 p-6 flex rounded-lg" v-for="(item, idx) in items" :key="idx">
+    <div class="group flex rounded-lg" v-for="(item, idx) in items" :key="idx">
         <a href="#" class="w-full object-cover">
             <img class="object-cover w-full aspect-square hover:grow hover:shadow-lg rounded-lg" :src="imageSrc(item)">
             <div class="pt-3 flex items-center justify-between">

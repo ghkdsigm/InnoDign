@@ -22,7 +22,9 @@
                     </div>
                 </div>
             </nav>
-            <Products :target="'house'" :items="houseItems" />             
+            <div class="px-6 grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:gap-10 xl:grid-cols-3 grid-cols-4 w-full">
+                <Products :target="'house'" :items="houseItems" />             
+            </div>
         </div>
     </section>
     <section class="bg-white my-8">
@@ -45,8 +47,11 @@
                         </a>
                     </div>
                 </div>
-            </nav>            
-            <Products :target="'company'" :items="companyItems" />      
+            </nav> 
+            <div class="px-6 grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:gap-10 xl:grid-cols-3 grid-cols-4 w-full">
+                <Products :target="'company'" :items="companyItems" />
+            </div>      
+                  
         </div>
     </section>
     <section class="bg-white my-8">
@@ -70,7 +75,7 @@
                     </div>                                   
                 </div>
             </nav>   
-            <div class="px-6 grid gap-10 md:grid-cols-2 lg:gap-10 xl:grid-cols-3 grid-cols-3 w-full">     
+            <div class="px-6 grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:gap-10 xl:grid-cols-3 grid-cols-3 w-full">     
                 <Trends :items="trendsItems" />           
             </div>
         </div>
