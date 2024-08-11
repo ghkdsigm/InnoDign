@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Pretendard 폰트 설정 */
+body {
+    font-family: 'Pretendard', ui-sans-serif, system-ui;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-use-select: none;
+    user-select: none;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 800;
+    src: url('@/assets/fonts/Pretendard-ExtraBold.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 700;
+    src: url('@/assets/fonts/Pretendard-Bold.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 600;
+    src: url('@/assets/fonts/Pretendard-SemiBold.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 400;
+    src: url('@/assets/fonts/Pretendard-Regular.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 300;
+    src: url('@/assets/fonts/Pretendard-Light.ttf') format('truetype');
+    font-style: normal;
+    font-display: block;
+}
+
+
+button {
+    @apply focus:outline-none;
+}
+
+.border-color {
+    @apply border-gray-100;
+}
+
+.text-gray {
+    @apply text-gray-500;
+}
+
+
+.tit {
+    font-weight:700;
+    font-size:1.1vw;
+}
+.mainTit {
+    font-weight:700;
+    font-size:2.3vw;
+}
+
+.keybutton:active {
+    position: relative;
+    top: 2px;
+    transition: all 0.2s ease;
+    opacity: 0.5;
+}
