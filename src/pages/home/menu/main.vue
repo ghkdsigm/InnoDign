@@ -185,7 +185,7 @@ export default {
                 tel:'',
                 date: '2024년 01월',
                 price: '3,000',
-                thumbnail: '2',
+                thumbnail: '3',
                 size: '공급 24평',
                 extra: '비확장',
                 construction: [
