@@ -2,7 +2,7 @@
   <div>
     <HomeSlider />
     <section class="bg-white my-8">
-        <div class="container mx-auto flex items-center flex-wrap" style="max-width:1600px;">
+        <div class="container mx-auto flex items-center flex-wrap" style="max-width:1260px;">
             <nav id="store" class="w-full z-30 top-0 px-6 pt-1">
                 <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-2 py-3">
                     <a class="uppercase tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl " href="#">
@@ -28,7 +28,7 @@
         </div>
     </section>
     <section class="bg-white my-8">
-        <div class="container mx-auto flex items-center flex-wrap" style="max-width:1600px;">
+        <div class="container mx-auto flex items-center flex-wrap" style="max-width:1260px;">
             <nav id="store" class="w-full z-30 top-0 px-6 pt-1">
                 <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-2 py-3">
                     <a class="uppercase tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl " href="#">
@@ -55,7 +55,7 @@
         </div>
     </section>
     <section class="bg-white my-8">
-        <div class="container mx-auto flex items-center flex-wrap" style="max-width:1600px;">
+        <div class="container mx-auto flex items-center flex-wrap" style="max-width:1260px;">
             <nav id="store" class="w-full z-30 top-0 px-6 pt-1">
                 <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-2 py-3">
                     <a class="uppercase tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl " href="#">
