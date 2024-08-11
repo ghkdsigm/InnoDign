@@ -15,7 +15,7 @@
                     <span class="flex items-center space-x-2 text-sm pl-1">· {{ item.color[0] }}</span>
                 </div>
                 <div>
-                    <span class="flex items-center space-x-2 text-sm">{{ item.price + ' 만원' }}</span>
+                    <span class="flex items-center space-x-2 text-sm text-blue-400 font-medium">{{ item.price + ' 만원' }}</span>
                 </div>
             </div>
             <ul class="flex">
