@@ -4,6 +4,7 @@ export const useCommonStore = defineStore('common', {
   state: () => ({
     openPopup: false,
     isKeyboardVisible: false, // 키보드 표시 상태 추가
+    scrollY: 0, 
   }),
   actions: {
     // 팝업 상태 확인 메서드
@@ -26,5 +27,9 @@ export const useCommonStore = defineStore('common', {
     toggleKeyboard() {
       this.isKeyboardVisible = !this.isKeyboardVisible
     },
+    setScrollY(position) {
+      this.scrollY = position;
+    },
+
   },
 })
