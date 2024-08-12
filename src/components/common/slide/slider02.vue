@@ -1,9 +1,13 @@
 <template>
   <div class="w-full h-full">
     <swiper
+        :slidesPerView="1"
+        :spaceBetween="30"
+        :loop="true"
         :pagination="{
-        dynamicBullets: true,
+            dynamicBullets: true,
         }"
+        :navigation="true"
         :modules="modules"
         class="mySwiper rounded-md"
     >
@@ -23,7 +27,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 //import './style.css';
 // import required modules
-import { Pagination } from 'swiper/modules';
+import { Pagination, Navigation } from 'swiper/modules';
 import { useUtilities } from '@/utils/useUtilities';
 
 export default {
@@ -44,7 +48,7 @@ export default {
         return {
             getImageSrc,
             imageSrc,
-            modules: [Pagination],
+            modules: [Pagination, Navigation],
         };
     },
 };
