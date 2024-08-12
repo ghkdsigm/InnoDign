@@ -10,7 +10,7 @@
             </p>
             </div>
         </div>
-        <div class="flex w-full lg:w-1/2 lg:justify-end lg:text-right mt-6 md:mt-0 mt-1 flex justify-center gap-1 text-center text-sm text-gray-500 dark:text-gray-600">
+        <div class="flex w-full lg:w-1/2 lg:justify-end lg:text-right mt-2 md:mt-0 mt-1 flex justify-center gap-1 text-center text-sm text-gray-500 dark:text-gray-600">
             <div class="px-3 md:px-0">
             <h3 class="font-bold text-gray-900 text-center">Social</h3>
 
@@ -33,6 +33,9 @@
             </div>
             </div>
         </div>
+        <p class="mx-auto py-4 text-center text-xs">
+            copyright © INNODIGN
+        </p>
         </div>
     </div>
     </footer>
