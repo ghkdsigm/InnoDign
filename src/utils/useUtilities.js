@@ -15,6 +15,7 @@ export function useUtilities() {
       houses: import.meta.glob('@/assets/img/houses/*.jpg', { eager: true }),
       company: import.meta.glob('@/assets/img/company/*.jpg', { eager: true }),
       trends: import.meta.glob('@/assets/img/trends/*.jpg', { eager: true }),
+      banner: import.meta.glob('@/assets/img/banner/*.jpg', { eager: true }),
       // 필요 경로들 여기에 추가
     };    
     const selectedFolder = images[folder] || {};
