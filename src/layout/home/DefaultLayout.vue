@@ -1,9 +1,9 @@
 <template>
   <div>
     <!--Main Section-->    
-    <HomeNav />
+    <HomeNav  />
     <div class="pt-12">      
-        <div class="mx-auto h-full" @scroll="handleScroll">
+        <div class="mx-auto h-full" style="max-width:1260px;" @scroll="handleScroll">
             <router-view v-slot="{ Component }">
               <component :is="Component"></component>
             </router-view>
