@@ -13,7 +13,7 @@
         <div class="container mx-auto flex items-center flex-wrap">
             <nav id="store" class="w-full z-30 top-0 px-6 pt-1">
                 <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0  py-3">
-                    <a class="uppercase tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl pb-2" href="#">
+                    <a class="uppercase tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl sm:text-lg pb-2" href="#">
                         이노다인과 함께한 <span class="text-blue-600 font-bold">이웃들의 소중한 공간</span>이에요
                     </a>
                     <div class="flex items-center" id="store-nav-content">
@@ -40,7 +40,7 @@
         <div class="container mx-auto flex items-center flex-wrap">
             <nav id="store" class="w-full z-30 top-0 px-6 pt-1">
                 <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-3">
-                    <a class="uppercase tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl pb-2" href="#">
+                    <a class="uppercase tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl sm:text-lg pb-2" href="#">
                         이노다인과 함께한 <span class="text-blue-600 font-bold">대표님들의 일터</span>에요
                     </a>
                     <div class="flex items-center" id="store-nav-content">
@@ -70,7 +70,7 @@
         <div class="container mx-auto flex items-center flex-wrap">
             <nav id="store" class="w-full z-30 top-0 px-6 pt-1">
                 <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-3">
-                    <a class="uppercase tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl pb-2" href="#">
+                    <a class="uppercase tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl sm:text-lg pb-2" href="#">
                         요즘 힙한 <span class="text-blue-600 font-bold">트렌드</span>
                     </a>     
                     <div class="flex items-center" id="store-nav-content">
