@@ -2,7 +2,7 @@
   <div>
     <!--Main Section-->    
     <HomeNav  />
-    <div class="pt-12">      
+    <div class="pt-12 sm:pt-0">      
         <div class="mx-auto h-full" style="max-width:1260px;" @scroll="handleScroll">
             <router-view v-slot="{ Component }">
               <component :is="Component"></component>
