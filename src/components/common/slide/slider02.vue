@@ -31,7 +31,22 @@
                 libero. Aenean feugiat non eros quis feugiat.
                 </p>
             </div> -->
-            <img :src="imageSrc(item)" class="" />
+            <div class="relative font-sans before:absolute before:h-full before:inset-0 before:bg-gradient-to-r from-black before:opacity-50 before:z-10 w-full">
+                <img :src="imageSrc(item)" class="absolute inset-0 w-full h-full object-cover" />
+                    <div class="min-h-[350px] relative z-50 mx-auto flex justify-between items-center text-white py-6 px-12">
+                        <div>
+                            <h2 class="sm:text-4xl text-3xl font-bold mb-6">간단한 프로세스 & 쾌적한 보금자리, 이노다인이 함께합니다.</h2>
+                            <p class="sm:text-lg text-lg text-left font-light text-gray-200 mb-4">거주중인 보금자리 어떻게 꾸미지? <br/>먼지 여기저기 날리는건 아닌가? 출,퇴근은 가능할까?</p>
+                            <p class="sm:text-lg text-lg text-left font-light text-gray-200">모든 걱정 & 근심 이노다인이 단번에 해결 해 드립니다!</p>
+                        </div>
+
+                        <!-- <button
+                        type="button"
+                        class="mt-12 bg-transparent text-white text-base py-3 px-6 border border-white rounded-lg hover:bg-white hover:text-black transition duration-300">
+                        자세히 보기
+                        </button> -->
+                    </div>
+            </div>            
         </swiper-slide>
     </swiper>
   </div>

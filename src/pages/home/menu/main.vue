@@ -37,6 +37,24 @@
         </div>
     </section>
     <section class="bg-white my-8">
+        <div class="container mx-auto flex items-center flex-wrap ">
+            <!--- more free and premium Tailwind CSS components at https://tailwinduikit.com/ --->
+            <div id="store" class="w-full z-30 top-0 px-6 pt-1">
+                <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-3">
+                    <div class="flex justify-between bg-gray-50 dark:bg-gray-800 py-6 px-10 w-full  ">
+                        <div class="flex flex-col justify-center">
+                            <h1 class="text-3xl lg:text-4xl font-semibold text-gray-800 dark:text-white">Best Deal</h1>
+                            <p class="text-base lg:text-xl text-gray-800 dark:text-white">Save upto <span class="font-bold">50%</span></p>
+                        </div>
+                        <div class="flex justify-center md:justify-end">
+                            <img src="https://i.ibb.co/J2BtZdg/Rectangle-56-1.png" alt="" class="h-[70px]" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-white my-8">
         <div class="container mx-auto flex items-center flex-wrap">
             <nav id="store" class="w-full z-30 top-0 px-6 pt-1">
                 <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-3">
